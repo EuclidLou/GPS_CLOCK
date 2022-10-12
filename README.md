@@ -19,7 +19,7 @@
 译码器使用经典74HC595，担心输出功率不够，加了一级PMOS驱动 <br>
 电源管理用的外置TYPE-C供电或一节18650，自动切换电源，并在外接电源时充电 <br>
 按键从侧面引出四个，其中三个是可编程的，同时也是BOOT时的STRAPPER引脚(boot选择会自动锁存STRAPPER的值，因此可以复用) <br>
-烧录方式通过ESP32内置的USB-JTAG桥，背面也留出了UART0的MARK POINT
+烧录方式通过ESP32内置的USB-JTAG桥，背面也留出了UART0的TEST POINT
 ![](/IMG/3.jpg)
 
 ## 软件部分
